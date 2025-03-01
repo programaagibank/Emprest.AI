@@ -25,10 +25,10 @@ git checkout main
 Para cada nova funcionalidade ou correção, crie uma branch com um nome descritivo:
 
 ```sh
-git checkout -b nome-da-tarefa
+git checkout -b tipo/nome-da-tarefa
 ```
 
-Exemplo: `git checkout -b adiciona-login-usuario`.
+Exemplo: `git checkout -b feature/calc-saldodevedor-price`.
 
 Dica: Use nomes que indiquem o propósito (ex.: `fix-bug-botao`, `feature-cadastro`).
 
@@ -46,7 +46,7 @@ git commit -m "adiciona validacao idade maxima"
 Envie para o GitHub: Suba suas mudanças para a branch remota:
 
 ```sh
-git push origin nome-da-tarefa
+git push origin tipo/nome-da-tarefa
 ```
 
 ## 4. Mantenha Sua Branch Atualizada
@@ -68,7 +68,7 @@ git commit
 
 Vá ao GitHub, na aba "Pull Requests", e clique em "New Pull Request".
 
-Selecione sua branch (`nome-da-tarefa`) e a branch principal (`main`) como destino.
+Selecione sua branch (`tipo/nome-da-tarefa`) e a branch principal (`main`) como destino.
 
 Descreva o que você fez no PR (ex.: "Adiciona função de login com validação").
 
@@ -81,7 +81,7 @@ Se a equipe sugerir mudanças, edite localmente na mesma branch:
 ```sh
 git add .
 git commit -m "Ajusta validação conforme feedback"
-git push origin nome-da-tarefa
+git push origin feature/calc-saldodevedor-price
 ```
 
 O PR atualiza automaticamente com os novos commits.
@@ -125,14 +125,14 @@ Carollina quer adicionar um botão:
 ```sh
 git checkout main
 git pull origin main
-git checkout -b feature/saldodevedor-price
+git checkout -b feature/calc-saldodevedor-price
 ```
 
 [Faz as mudanças]
 
 ```sh
 git add . && git commit -m "adiciona calculo de saldo devedor atualizado tabela price"
-git push origin feature/saldodevedor-price
+git push origin feature/calc-saldodevedor-price
 ```
 
 Cria PR no GitHub, equipe revisa, faz merge.
