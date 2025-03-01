@@ -742,6 +742,5 @@ Valor da parcela abatido dos juros futuros, calculado como parte do método Pric
 
 ## 14. DER (Diagrama Entidade Relacionamento)
 
-![Diagrama -Projeto-AgiBank drawio](https://github.com/user-attachments/assets/9c8ba051-2f0c-4f71-9143-81135843872e)
-
+![Diagrama -Projeto-AgiBank drawio (7)](https://github.com/user-attachments/assets/cd67f76d-0d0d-43f9-871c-6612edb97547)
 
