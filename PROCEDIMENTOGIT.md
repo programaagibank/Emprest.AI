@@ -132,7 +132,7 @@ git checkout -b feature/saldodevedor-price
 
 ```sh
 git add . && git commit -m "adiciona calculo de saldo devedor atualizado tabela price"
-git push origin feature/botao-novo
+git push origin feature/saldodevedor-price
 ```
 
 Cria PR no GitHub, equipe revisa, faz merge.
